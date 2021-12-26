@@ -1,0 +1,91 @@
+:root {
+    color-scheme: light;
+    font-size: 62.50%;
+}
+
+html,
+body {
+    min-height: 100%;
+    width: 100%
+}
+
+html body,
+body body {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+html body .containment,
+body body .containment {
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto
+}
+
+body {
+    background: url('../images/MusicPlayer.png');
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    box-sizing: border-box;
+    color: inherit;
+    list-style: none;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    text-decoration: none
+}
+
+ul {
+    list-style: none
+}
+
+a {
+    color: inherit;
+    cursor: pointer;
+    font-size: inherit;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%
+}
+
+button {
+    background: 0;
+    cursor: pointer
+}
+
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit
+}
+
+select option {
+    color: #000 !important
+}
+
+h1,
+h2,
+h3,
+h4 {
+    padding: 0;
+    margin: 0;
+}
+
+i {
+    color: white;
+}
+
+p {
+    margin: 0;
+}

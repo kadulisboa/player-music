@@ -1,0 +1,54 @@
+header {
+    color: white;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .spotify {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    font: 20px "Abhaya Libre", sans-serif;
+    font-weight: 800;
+}
+
+header .spotify span {
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    transition: .4s text-decoration-color ease;
+}
+
+header .spotify i {
+    margin-right: 14px;
+    text-decoration: none;
+    text-decoration-color: transparent;
+    transition: .4s transform ease;
+    transform: scale(0.90) translateX(2px);
+}
+
+header .spotify:hover span {
+    text-decoration-color: white;
+}
+
+header .spotify:hover i {
+    transform: scale(0.90) translateX(-5px);
+}
+
+header .musicName {
+    font-size: 20px;
+}
+
+header .share {
+    font: 20px "Abhaya Libre", sans-serif;
+    transition: .4s text-decoration-color ease;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+}
+
+header .share:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}

@@ -1,0 +1,20 @@
+h1 {
+    color: white !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: black;
+    font-size: 2rem;
+}
+
+.sub-title {
+    color: white;
+    font-size: 2rem;
+    transform: translateY(-15px)
+}
+
+h3 {
+    color: white
+}

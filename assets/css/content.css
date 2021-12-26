@@ -1,0 +1,20 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    padding-right: calc(17.5% + 40px);
+    transition: .4s padding-right ease;
+}
+
+.content._active {
+    padding-right: 4%;
+}
+
+.capa {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.capa img {
+    width: 60vh;
+}
